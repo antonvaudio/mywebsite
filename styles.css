@@ -1,0 +1,66 @@
+body{
+   font-family: 'Open Sans', sans-serif;
+   margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    align-self: center;
+    padding-left: 1em;
+}
+
+nav {
+font-size: 1.5em;
+display: flex;
+justify-content: space-between;
+}
+
+#p5sketch{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+ul, li {
+    display: inline;
+    margin: 0;
+    padding: 1em;
+}
+/* Section WORKS */
+/* #container{
+    background-color: aqua;
+    margin: 0 auto;
+    width: 90%;
+    height: 800px;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+    background-color: orange;
+}
+.box5{
+    background-color: purple;
+}
+
+
+#container div{
+border: 5px solid black;
+width: 300px;
+height: 169px;
+}
+ */
+
