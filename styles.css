@@ -48,11 +48,18 @@ ul, li {
 }
 
 .redbox{
-    flex-grow: 4;
+    flex-grow: 1;
 }
-
 .box1{
     background-color: red;
+}
+
+.greenbox{
+    flex-grow: 1;
+}
+
+.bluebox{
+    flex-grow: 1;
 }
 .box2{
     background-color: green;
@@ -71,9 +78,9 @@ ul, li {
     font-size: 35px;
     padding: 20px;
     margin: 20px;
-    height: 5em;
+    height: 10em;
     text-align: center;
-    flex-grow: 1;
+    flex-grow: 3;
 }
 
 div{
