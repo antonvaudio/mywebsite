@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+     
 }
 
 body{
-  
+  font-family: 'Open Sans', sans-serif;
    margin: 0 auto;
 }
 
@@ -16,10 +16,28 @@ a {
     padding-left: 1em;
 }
 
-nav {
+.navbar {
 font-size: 1.5em;
-display: flex;
 justify-content: space-between;
+line-height: 1.5;
+}
+
+.navbar a{
+    color: ffff;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: #F0ECE3;
+}
+
+
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 #p5sketch{
@@ -29,60 +47,50 @@ justify-content: space-between;
     justify-content: center;
 }
 
+.logo{
+    font-weight: bold;
+    font-size: x-large;
+}
+
 ul, li {
     display: inline;
-    margin: 0;
-    padding: 1em;
+    margin: 10px0;
+    padding: 0.5em;
 }
 /* Section WORKS */
-.container{
-    padding: 1em;
-    margin: 50px;
-    width: 90%;
-    border: black 5px double;
+.flex-container{  
+    background-color: #f4f4f4;;
+}
+
+.row-music {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-content: flex-start;
-}
-
-.redbox{
-    flex-grow: 1;
-}
-.box1{
-    background-color: red;
-}
-
-.greenbox{
-    flex-grow: 1;
-}
-
-.bluebox{
-    flex-grow: 1;
-}
-.box2{
-    background-color: green;
-}
-.box3{
-    background-color: blue;
-}
-.box4{
-    background-color: orange;
-}
-.box5{
-    background-color: purple;
-}
-
-.boxes{
-    font-size: 35px;
-    padding: 20px;
-    margin: 20px;
-    height: 10em;
-    text-align: center;
-    flex-grow: 3;
-}
-
-div{
+    justify-content: center;
+    align-items: flex-start;
     text-align: center;
 }
+
+.item{
+    height: 20em;
+    flex: 1;
+    background: blue;
+    color: white;
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.live-electronics{
+    background: url("/media/works/live-electronics-cover.jpg") no-repeat center;
+   background-size: cover;
+   ;
+}
+
+.albums{
+    background: url("/media/works/albums-cover.jpg") no-repeat center ;
+
+   background-origin: padding-box ;
+   ;
+}
+
