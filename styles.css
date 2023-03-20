@@ -79,18 +79,71 @@ ul, li {
     display: flex;
     justify-content: center;
     align-items: center;
+
+  
+ 
 }
 
+.caption{
+    font-size:xx-large;
+    opacity: 1;
+
+    background-color: black;
+    color: #fff; 
+  
+    padding: 0.5rem;
+ 
+
+    text-shadow: 0 1px 0 black;
+ 
+}
+
+
+
 .live-electronics{
-    background: url("/media/works/live-electronics-cover.jpg") no-repeat center;
+    background: 
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("/media/work/live-electronics-cover.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.albums{
+    background: 
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("/media/work/albums-cover.jpg") no-repeat bottom;
+   background-origin: padding-box ;
+}
+
+.interactive-art{
+    background: 
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("/media/work/interactive-art-cover.jpg") no-repeat ;
+    background-position:center;
    background-size: cover;
    ;
 }
 
-.albums{
-    background: url("/media/works/albums-cover.jpg") no-repeat center ;
-
-   background-origin: padding-box ;
+.post-production{
+    background: 
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.6)
+    ), url("/media/work/post-production-cover.jpg") no-repeat ;
+    background-position:center;
+   background-size: cover;
    ;
 }
 
